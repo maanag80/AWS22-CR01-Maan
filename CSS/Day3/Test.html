@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            margin: 7cm;
+            width: 100px;
+            height: 50px;
+            font-size: 14pt;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-decoration: white;
+            background-image: linear-gradient(blue,yellow);
+            transition: 500ms width ease-in, 500ms height ease-out, 400ms background-color cubic-bezier(0, 1.04, 0.45,
+            0.94), 700ms transform ease-in
+        }
+        .box:hover{
+            width: 550px;
+            height: 350px;
+            background-image: linear-gradient(red,green) ;
+            text-align: center;
+            font:white;
+            transform: skew(10deg,10deg)
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>
+            Hallo World
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/*adding background image to first container + positioning the image to fit the text
+and search bar with buttons*/
+#nr1 {
+    background-image: url("keyboard.jpg"); 
+    background-position-y: 4770px;
+    background-position-x: 0px;
+    background-size: cover;
+    padding-bottom: 0cm;
+    padding-top: 0.2cm;
+    height: 33%;
+    
+}
+/*styling the 2 buttons LogIn and SignUp*/
+.click1 {
+    background-color: rgb(197, 35, 35);
+    color: #fff;
+    width: 100px;
+    height: 55px;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-left: 0.5cm;
+}
+/*styling and fitting the first header of the first container*/
+h2 {
+    margin: 6.5cm 0cm 0cm 7cm;
+    color: #fff;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.FSWD {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.2cm 0cm 0cm 7cm;
+}
+/*trying to style the first image in navigation bar*/
+.upimg {
+    position: absolute;
+}
+.search {
+    height: 30px;
+    position: static;
+    margin-left: 6cm;
+}
+
+/*styling the second container and adjusting its height*/
+#nr2 {
+    background-color: rgb(15, 14, 14);
+    height: 33%;
+    width: 100%;
+}
+/*styling the header in the second container*/
+h1 {
+    margin-top: -0.05cm;
+    padding-top: 1cm;
+    font-size: 35pt;
+    font-family: verdana, Times , arial;
+    text-align: center;
+    color: #fff;
+    text-shadow: rgb(102, 100, 100) 4px 4px
+
+}
+/* Styling the three boxes in the second container and trying to make them as rows with adding flex directions*/
+div.box {
+    width: 280px;
+    height: 15%;
+    float: center;
+    border: 1px solid black;
+    margin: 0cm 1cm 0cm 2cm;
+    background-color: rgb(96, 96, 201);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+    color: rgba(230, 221, 229, 0.849);
+    padding: -1cm;
+    position: relative;
+    border: solid 0px;
+    border-radius: 10px;
+}
+p.box {
+    color: #fff;
+    font-size: 15pt;
+    margin: 0cm -0.5cm -0.5cm -0.5cm;
+    padding-bottom: -1.5cm;
+    
+}
+p.box- {
+    color: #fff;
+    font-size: 12pt;
+   
+}
+
+/*styling the third container*/
+#nr3 {
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding-top: 0.5cm;
+    height: 20%;

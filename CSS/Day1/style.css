@@ -1,0 +1,33 @@
+/* Give all the divs a border of your choice, as well as a margin of 5px. */
+
+div { border: 6em;
+        margin: 5px;
+}
+
+/*Hide the p element that is the direct child of the div with the id of “third”*/
+#hidden {
+    display: none;
+}
+
+/*Hide all the h1 elements on the page.*/
+h1 { 
+    display: none;
+}
+/*Hide all the descendants of the div with the id “second”.*/
+#second {
+    display: none;
+}
+/*Now display again ONLY the <img> elements on the page.
+*/
+#second {
+    display:block;
+}
+#third {
+    display: none;
+}
+#fifth {
+    display: none;
+}
+#sixth {
+    display: block;
+}

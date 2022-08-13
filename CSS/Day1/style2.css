@@ -1,0 +1,10 @@
+/* Give all the divs a border of your choice, as well as a margin of 5px. */
+
+div { border: 6em;
+        margin: 5px;
+}
+
+#important { 
+    font-size: 6em;
+
+}
