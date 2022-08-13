@@ -62,7 +62,7 @@ h1 {
 /* Styling the three boxes in the second container and trying to make them as rows with adding flex directions*/
 div.box {
     width: 280px;
-    height: 15%;
+    height: 200px;
     float: center;
     border: 1px solid black;
     margin: 0cm 1cm 0cm 2cm;
@@ -98,3 +98,4 @@ p.box- {
     font-family: 'Arial Narrow Bold', sans-serif;
     padding-top: 0.5cm;
     height: 20%;
+}
